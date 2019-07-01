@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = (props) => {
     return (
-        <header className="App-header sticky">
+        <header className="app-header sticky">
             <h2>Header</h2>
         </header>);
 };

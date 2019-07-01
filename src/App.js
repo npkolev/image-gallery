@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
 import Sideabr from './Components/Sidebar';
-import Content from './Components/Content';
+import ImageGallery from './Components/ImageGallery';
 import Header from './Components/Header';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Sideabr />
-      <Content />
+      <ImageGallery />
     </div>
   );
 }
